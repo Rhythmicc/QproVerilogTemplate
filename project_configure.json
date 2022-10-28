@@ -1,0 +1,16 @@
+{
+  "build": "iverilog -o dist/QproVerilogTemplate -I QproVerilogTemplate QproVerilogTemplate/* tb.v; vvp -n dist/QproVerilogTemplate -lxt2",
+  "entry_point": "QproVerilogTemplate/top.v",
+  "executable": "gtkwave dist/QproVerilogTemplate.vcd",
+  "input_file": "",
+  "template_root": "",
+  "server_target": "",
+  "server_targets": [
+    {
+      "user": "",
+      "host": "",
+      "port": 22,
+      "path": ""
+    }
+  ]
+}
